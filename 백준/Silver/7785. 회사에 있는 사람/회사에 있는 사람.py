@@ -1,7 +1,8 @@
+import sys
 N = int(input())
 dict_state = {}
 for n in range(N) :
-    name, state = input().split()
+    name, state = sys.stdin.readline().split()
 
     dict_state[name] = True if state == 'enter' else False
 
