@@ -1,5 +1,6 @@
-N = int(input())
-words = set(input() for i in range(N))
+import sys
+N = int(sys.stdin.readline())
+words = set(sys.stdin.readline().rstrip() for i in range(N))
 dict_len = {}
 
 for word in words :
