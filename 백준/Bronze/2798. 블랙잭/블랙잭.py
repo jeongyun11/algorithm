@@ -13,5 +13,5 @@ for i in range(N) : # 겹친다. 숫자의 중복
     for j in range(i + 1, N) :
         for k in range(j + 1, N) :
             if(cards[i] +cards[j] + cards[k]) <= M :
-                list_sum.append(cards[i] +cards[j] + cards[k])
-print(sorted(list_sum,reverse=True)[0])
+                sum_num.add(cards[i] +cards[j] + cards[k])
+print(sorted(sum_num,reverse=True)[0])
