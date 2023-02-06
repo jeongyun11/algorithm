@@ -1,8 +1,9 @@
+import sys
 while True :
-    X, Y = map(int, input().split())
+    X, Y = map(int, sys.stdin.readline().strip().split())
     if X == 0 or Y == 0 :
         break
-    matrix1 = [list(map(int, input().split())) for y in range(Y)]
+    matrix1 = [list(map(int, sys.stdin.readline().strip().split())) for y in range(Y)]
     # print(matrix1)
 
     list_land = []
