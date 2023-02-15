@@ -1,3 +1,6 @@
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 
 list1 = [tuple(map(int, input().split())) for i in range(N)]
