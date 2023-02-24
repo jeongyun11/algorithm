@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline
 from collections import deque
 
 N = int(input())
@@ -18,3 +20,5 @@ for i in range(N) :
         result.append(list1.pop())
 
 print(*result)
+
+    
